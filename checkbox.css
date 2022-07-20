@@ -1,13 +1,8 @@
-#check{
-    /* position: absolute; */
-    /* padding-left: 50px; */
-}
 #check1{
     display: flex;
     gap: 110px;
-    padding-left: 63
-    0px;
-    padding-top: 5px;
+    padding-left: 630px;
+    padding-top: 10px;
 }
 input[type="checkbox"]{
     position: relative;
@@ -40,20 +35,4 @@ input[type="checkbox"]::before{
 } 
 input:checked[type="checkbox"]::before{
 left : 120px;
-
 }
-/* input[type="checkbox"]:after{
-    content: '';
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    top: calc(50% -2px);
-    left: 70px;
-    background-color: #3ac96b;
-    border-radius: 50%;
-    transition: .5s;
-}
-input:checked[type="checkbox"]:after{
-    background-color: #63cdff;
-    left: 10px;
-} */
