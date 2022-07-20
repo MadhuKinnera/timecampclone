@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#navbar{
+    height:160px;
+    width:100%;
+    margin:auto;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+
+#navbar1{
+    width:95%;
+    height:90px;
+    display: flex;
+    justify-content:flex-start;
+}
+#navbar1 > div:first-child{
+    display: flex;
+    align-items: center;
+}
+#navbar1 >  div > img {
+    width:126px;
+    margin-right: 113px;
+    margin-left:60px;
+}
+#navbar1> div:nth-child(2){
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+#div1{
+    width:60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#div2{
+    width:80%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+#div2> p:nth-child(2){
+    margin-left: 20px;
+    background-color:#0cef6e;
+    padding:15px 65px;
+    border-radius: 30px;
+    color:white;
+    
+}
+
+#navbar2{
+    width:95%;
+    margin-top:10px;
+    height:40px;
+    padding-top:10px;
+    
+}
+#navbar2> a{
+    text-decoration: none;
+    color:#0fc254;
+    font-size: 16px;
+    font-weight: bold;
+    margin:0px 27px 0px 15px;
+}
+#navbar2> a:first-child{
+    padding-left:60px;
+}
+#search{
+    height:100px;
+}
+#search > div{
+
+       margin-top:40px;
+       padding-left:15px;
+       width:250px;
+       height:52px;
+       display: inline-flex;
+       margin-left:670px;
+       box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+       border-radius: 30px;
+}
+#search > div > input{
+    text-align: center;
+    font-size: 15px;
+    height: 50px;
+    border:transparent;
+    width:200px;
+    border-radius: 30px;
+}
+
+.icon{
+     margin-top:15px;
+}
+
+
