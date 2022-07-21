@@ -1,0 +1,495 @@
+.midSectionTimeSheet{
+    /* border: solid 1px green; */
+    min-height: 370px;
+}
+.calendar{
+    display: flex;
+    width: 85%;
+    /* border: green 1px solid; */
+    position: relative;
+    top: 94px;
+    left: 173px;
+}
+.left,.right,.mid,.day,.week,.refresh,.profilee,.bulkedit,.setting,.startTime,.endTime{
+   
+    text-align: center;
+    padding: 9px 0;
+
+    background-color: white;
+    color: rgb(141, 135, 135);
+    border: 0.2px solid rgb(221, 221, 221);
+    height: 22px;
+}
+.left,.right{
+    width: 34px;
+    
+}
+.mid{
+    width: 63px;
+}
+.left,.day{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.right,.week{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.mid i,.profilee i,.setting i{
+    margin-left: 10px;
+}
+.calendar p{
+    padding: 0;
+    margin: 10px 15px ;
+    font-size: 18px;
+    color:rgb(83, 83, 83);
+}
+.day,.week{
+    width: 78px;
+    color:rgb(83, 83, 83);
+}
+.day{
+    margin-left: 347px;
+}
+.refresh,.profilee{
+    margin-left: 9px;
+    width: 44px;
+    border-radius: 8px;
+}
+.profilee{
+    width: 60px;
+  
+}
+.bulkedit,.setting{
+    border-radius: 8px;
+    margin-left: 9px;
+}
+.bulkedit{
+    width: 110px;
+}
+.setting{
+    width: 63px;
+}
+
+
+.selectTask{
+   
+    position: relative;
+    top: 110px;
+    right: -167px;
+    width: 1190px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    background-color: rgb(248,248,248);
+    display: flex;
+    padding: 20px 0;
+}
+.selectTask input {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(248,248,248);
+    border-radius: 8px;
+    margin: 10px 5px 0 0;
+    border: 0.2px solid rgb(26, 24, 24);
+    font-size: 16px;
+   
+}
+.note{
+    /* position: relative; */
+    margin-left: 400px;
+   position: relative;
+   top: -8px;
+   font-size: 15px;
+}
+.note2{
+    font-size: 15px;
+    margin-left: 450px;
+    margin-right: 300px;
+}
+.addTimeEntry{
+    border-radius: 8px;
+    text-align: center;
+    padding: 9px 0;
+    width: 160px;
+    height: 20px;
+    background-color:  rgb(75,176,99);
+    color: white;
+    margin: 0 5px;
+    border: 0.2px solid rgb(221, 221, 221);
+}
+.line{
+    background-color: rgb(221, 221, 221);
+    width: 1px;
+    margin-left: 5px;
+}
+.startTime,.endTime{
+    border-radius: 8px;
+    width: 45px;
+    margin-left: 5px;
+}
+.startTimer{
+    color: blue;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+.hypen{
+    position: relative;
+    top: -8px;
+    margin-left: 4px;
+}
+.showTasks{
+
+        border: 0.2px solid rgb(221, 221, 221);
+        width: 1190px;
+        min-height: 80px;
+        position: relative;
+        top: 140px;
+        left: 160px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+    
+}
+.addNewTask{
+    height: 60px;
+    width: 100px;
+    /* border: blue 1px solid; */
+    margin-left: 160px;
+    display: flex;
+    position: relative;
+    top: 80px;
+    right: 170px;
+    margin-top: 5px;
+}
+.plus{
+    background-color: rgb(75,176,99);
+    color: white;
+    cursor: pointer;
+    
+  
+}
+.duration{
+    font-size: 12px;
+}
+.rowTask{
+    height: 57px;
+    width: 100%;
+    background-color:   rgb(248,248,248);
+    border-radius: 8px;
+}
+.selectTasks{
+    cursor: pointer;
+    width: 200px;
+    height: 25px;
+    z-index: 2;
+    border: 0;
+    font-size: 20px;
+    background-color: rgb(248,248,248);
+}
+.selectTasks:hover {
+    color:  rgb(75,176,99);
+    text-decoration: underline;
+}
+td button{
+    outline:none;
+ }
+ td button::-moz-focus-inner {
+    border: 0;
+ }
+ #duration{
+    background-color:  rgb(75,176,99);
+    color: white;
+ }
+
+ /* *********timecamp********* */
+
+ body{
+    background-color: rgb(255,255,255);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    /* border: 1px red solid; */
+    display: flex;
+    color: rgb(83, 83, 83);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #fff;
+    /* background-color: rgb(221, 220, 220); */
+   
+}
+.nav-bar > div > p{
+    cursor: pointer;
+}
+.nav-bar > div > p:hover {
+    color:  rgb(75,176,99);
+    text-decoration: underline;
+}
+
+.logo{
+    /* border: solid 1px green; */
+    width: 3%;
+    height: 100px;
+    padding: 0 2%;
+}
+.logo img {
+    height: 34px;
+    margin: 16px 0;
+}
+.reports,.projects {
+    /* border: solid 1px green; */
+    width: 6%;
+    height: 100px;
+    padding: 0 1.5%;
+}
+.timesheet{
+    /* border: solid 1px green; */
+    width: 7%;
+    height: 100px;
+    padding: 0 1.5%;
+}
+.computer-time{
+    /* border: solid 1px green; */
+    width: 10%;
+    height: 100px;
+    padding: 0 1%;
+}
+
+
+
+
+
+
+.timesheet p,.projects p,.reports p,.computer-time p{
+    margin: 20px 0px;
+}
+.settings {
+    /* border: solid 1px green; */
+    width: 6%;
+    height: 100px;
+    padding: 0 1%;
+    margin-left: 330px;
+}
+.support{
+    /* border: solid 1px green; */
+    width: 3%;
+    height: 100px;
+    padding: 0 1%;
+    /* margin-left: 330px; */
+}
+.profile{
+    /* border: solid 1px green; */
+    width: 12%;
+    height: 100px;
+    padding: 0 1%;
+    
+}
+.profile i{
+    position: relative;
+    top: 17px;
+    font-size: 47px;
+}
+.profile p{
+    position: relative;
+    top: -30px;
+}
+
+
+  /* .......All The Dropdown properties ...........*/
+
+
+
+  .computer-dropdown-content,.support-dropdown-content ,.profile-dropdown-content,.more-dropdown-content,.project-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+    border-radius: 12px;
+    padding: 10px 5px;
+  }
+  .support-dropdown-content{
+      position: relative;
+      left: -170px;
+      min-width: 200px;
+  }
+  
+  .computer-dropdown-content a,.support-dropdown-content a,.profile-dropdown-content a,.more-dropdown-content a,.project-dropdown-content a{
+    color: grey;
+    padding: 6px 16px;
+    text-decoration: none;
+    border-radius: 12px;
+    display: block;
+   
+  }
+  .support-dropdown-content u{
+    padding: 6px 16px;
+    margin-left: 20px;
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .computer-dropdown-content a:hover,.support-dropdown-content a:hover,.profile-dropdown-content a:hover ,.more-dropdown-content a:hover,.project-dropdown-content a:hover{
+      background-color: rgb(75,176,99);
+      color: white;
+    }
+    .more-dropdown-content,.project-dropdown-content{
+        z-index: 2;
+    }
+    .project-dropdown-content{
+       margin-top: 20px;
+    }
+  .computer-time:hover .computer-dropdown-content {display: block; }
+
+  .support:hover .support-dropdown-content {display: block;}
+  .profile:hover .profile-dropdown-content {display: block;}
+  
+
+  /* **********project*********** */
+
+  
+.projects__heading{
+    font-size: 18px;
+    position: relative;
+    top: 90px;
+    right: -57px;
+   
+}
+.add__projects{
+    /* border: red 1px solid; */
+    /* margin: 120px 0 0 57px; */
+    position: relative;
+    top: 110px;
+    right: -57px;
+    width: 900px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+  
+
+}
+.add__projects input {
+    height: 38px;
+    width: 437px;
+    background-color: rgb(248,248,248);
+    border-radius: 8px;
+    margin: 0 5px 0 0;
+    border: 0.2px solid rgb(248,248,248);
+    font-size: 16px;
+   
+}
+.addButton,#filter,.collapse,#archieved,.more,.addTask {
+    border-radius: 8px;
+    text-align: center;
+    padding: 9px 0;
+    width: 111px;
+    background-color:  rgb(75,176,99);
+    color: white;
+    margin: 0 5px;
+    border: 0.2px solid rgb(221, 221, 221);
+}
+.addButton:hover ,.addTask:hover{
+    background-color: rgb(143, 219, 160);
+    cursor: pointer;
+}
+#filter,#archieved,.collapse,.more {
+    background-color: white;
+    color: rgb(83, 83, 83);
+    border: 0.2px solid rgb(221, 221, 221);
+}
+#filter:hover,.collapse:hover,.more:hover,#archieved:hover {
+    background-color:  rgb(241, 241, 241);
+    cursor: pointer;
+}
+.collapse,.more{
+    width: 41px;
+}
+.more{
+    padding: 0;
+    font-size: 20px;
+   
+}
+td > .more{
+    padding: 4px 0;
+}
+.show_items {
+    border: 0.2px solid rgb(221, 221, 221);
+    width: 900px;
+    height: 300px;
+    position: relative;
+    top: 140px;
+    left: 50px;
+    border-radius: 8px;
+   
+}
+.editProject{
+    border: 0.2px solid rgb(221, 221, 221);
+    width: 487px;
+    height: 110px;
+    border-radius: 8px;
+    position: relative;
+    top: -160px;
+    left: 978px;
+    text-align: center;
+    color: rgb(209, 200, 200);
+}
+.editProject p{
+    margin: 40px 0;
+}
+
+.row{
+    height: 57px;
+    width: 900px;
+    background-color:   rgb(248,248,248);
+    border-radius: 8px;
+}
+.addTask{
+    margin-left: 343px;
+}
+table{
+    border-spacing: 0;
+}
+#timer{
+    background-color:  rgb(75,176,99);
+    color: white;
+}
+.coloredCircle{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    /* background-color: green; */
+    margin: 0 6px 0 50px;
+}
+.showName{
+    width: 200px;
+}
+button{
+    outline:none;
+ }
+ button::-moz-focus-inner {
+    border: 0;
+ }
+ input{
+    outline:none;
+ }
+ input:active, 
+ input:focus 
+ {
+     border:1px solid green;
+     outline: none;
+ }
+ 
+ .moreAbout{
+     display: flex;
+     flex-direction: row;
+    
+ }
+ a{
+    color: rgb(83, 83, 83);
+ }
+ 
