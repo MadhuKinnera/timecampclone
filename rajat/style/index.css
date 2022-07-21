@@ -1,6 +1,6 @@
 *{
     background-image: inherit;
-    font-family: "Nunito Sans", sans-serif;;
+    font-family: "Nunito Sans", sans-serif;
 }
 /* #vanish_label_1{
    
@@ -167,4 +167,36 @@ a, a:visited, a:hover, a:focus, a:active {
 }
 .fin_span_to_or{
     margin: 0px 6px 0px 6px;
+}
+.inner_company_info{
+   
+    width: 100%;
+    height: 176px;
+    background-color: #25cf60;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.inner_container{
+    
+    width: 1110px;
+    height: 120px;
+  
+}
+
+.inner_company_div_header{
+    font-size: 18px;
+    color: #fff;
+   text-align: center;
+    
+}
+.inner_company_div_logo_brand{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem ;
+    padding-bottom: 1rem;
+    
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
