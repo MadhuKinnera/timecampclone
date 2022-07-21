@@ -200,3 +200,59 @@ a, a:visited, a:hover, a:focus, a:active {
     margin-right: -15px;
     margin-left: -15px;
 }
+.inner_body_section_crossdiv{
+    width: 100%;
+    height: 340px;
+
+}
+.crossZX{
+    width: 100%;
+    height: 340px;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.kruger{
+    font-weight: bold;
+}
+.flipper_case_sidebar{
+    
+}
+.cross_init_ziptop{
+
+    width: 1140px;
+    height: 280px;
+    
+    text-align: center;
+}
+.cross_init_ziptop>div{
+    width: 1140px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.cross_init_ziptop>div:nth-child(1){
+    font-size: 20px;
+    
+    height:60%;
+    
+}
+.cross_init_ziptop>div:nth-child(2){
+    font-size: 29px;
+    
+    height: 40%;
+   
+}
+.zip_out_max_side{
+    width: 100%;
+    height: 3382px;
+}
+.zip_out_max_side>#row{
+    border: 2px solid fuchsia;
+    width: 1110px;
+    height: 819px;
+    margin: auto;
+    display: flex;
+
+}
