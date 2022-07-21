@@ -214,9 +214,7 @@ a, a:visited, a:hover, a:focus, a:active {
 .kruger{
     font-weight: bold;
 }
-.flipper_case_sidebar{
-    
-}
+
 .cross_init_ziptop{
 
     width: 1140px;
@@ -251,8 +249,6 @@ a, a:visited, a:hover, a:focus, a:active {
     
 }
 #row{
-    
-    border: 2px solid fuchsia;
     width: 1110px;
     height: 819px;
     margin: auto;
@@ -337,5 +333,85 @@ a, a:visited, a:hover, a:focus, a:active {
     color: #fff;
     
 }
+.black_back_adust{
 
 
+    height: 643px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.deep_ul{
+    height: 643px;
+    width: 1461px;
+    display: grid;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.creep_ul{
+    padding: 0px 120px;
+
+    width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: #fff;
+    background-color: #000000;
+}
+.creep_ul>div{
+
+    height: 580px;
+    width: 100%;
+}
+.zx2{
+    width: 500px;
+    height: 406px;   
+}
+.zx2>img{
+    width: 500px;
+    height: 406px;
+    object-fit: scale-down;
+    position: relative;
+    top: 220px;
+    left: 225px;
+}
+/* .zx1{
+    border: 2px solid red;
+} */
+.zx1>div:nth-child(1){
+ 
+    width: 390px;
+    height: 309px;
+    font-size: 30px;
+    line-height: 55px;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+.zx1>div:nth-child(2){
+    width: 390px;
+    line-height: 30px;
+    margin: auto;
+    margin-top: 40px;
+}
+.zx1>div:nth-child(3){
+   
+    width: 390px;
+    height: 55px;
+    position: relative;
+    top: 30px;
+    margin: auto;
+    
+}
+#leave_it_as_btn{
+   display: block;
+    width: 202px;
+    height: 100%;
+    border-radius: 25px;
+    margin: left;
+    background-color: #f7b801;
+    
+    font-weight: bold;
+}
