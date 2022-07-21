@@ -266,3 +266,60 @@
     font-weight: 700;
     
 }
+
+#load{
+    color:rgb(23, 23, 199);
+    font-size: 20px;
+    border:1px solid rgb(21, 21, 224);
+    width:20%;
+    height: 40px;
+    padding-top:7px;
+    text-align: center;
+    border-radius:100px;
+    margin-top:30px;
+    font-weight: 700;
+    margin:auto;
+    padding-top:10px;
+
+}
+#advantage{
+  width:90%;
+  height:300px;
+  background-color:#f3f3f3;
+  margin:auto;
+  margin-top:30px;
+  border-radius: 30px;
+}
+
+#advantage > h2{
+    display:flex;
+    justify-content: center;
+    padding-top:50px;
+}
+#advantage > p{
+   margin-top:60px;
+   text-align: center;
+}
+#advantage > div{
+    display: flex;
+    margin-top:50px;
+}
+#advantage > div > button:nth-child(1){
+display:block;
+margin-left:500px;
+font-size: 16px;
+padding:13px 20px;
+font-weight: bold;
+border-radius: 20px;
+background-color:#f7b801; 
+border-color:transparent;
+}
+#advantage > div > button:nth-child(2){
+    display:block;
+    margin-left:30px;
+    font-size: 16px;
+    padding:13px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-color:#f7b801;
+    }
