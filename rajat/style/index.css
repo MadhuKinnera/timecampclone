@@ -149,9 +149,7 @@
     justify-content: center;
     align-items: center;
 }
-.Chose_the_btn>div{
-    
-}
+
 .Chose_the_btn>div>#btnY{
   
     border-radius: 26px;
@@ -247,8 +245,13 @@ a, a:visited, a:hover, a:focus, a:active {
 .zip_out_max_side{
     width: 100%;
     height: 3382px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  
+    
 }
-.zip_out_max_side>#row{
+#row{
+    
     border: 2px solid fuchsia;
     width: 1110px;
     height: 819px;
@@ -256,3 +259,83 @@ a, a:visited, a:hover, a:focus, a:active {
     display: flex;
 
 }
+.bulk_side{
+    width: 45%;
+  
+}
+.bulk_side_img{
+  
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bulk_side_img>img{
+    width: 90%;
+    height: 374px;
+    object-fit: scale-down;
+    /* object-position: center; */
+}
+.if_i_block{
+    text-align: left;
+    margin-left: 20px;
+    display: grid;
+    /* grid-template-columns: repeat(1,1fr); */
+    gap: 40px;
+}
+.if_i_block>p{
+    font-size: 14px;
+    color: #25cf60;
+    font-weight: bold;
+    
+}
+.i_block1{
+   
+    width: 350px;
+    height: 158px;
+   
+}
+.i_block1>h2{
+    font-size: 45px;
+
+}
+.i_block2{
+   
+    width: 430px;
+    height: 88px;
+    padding: 20px 0px;
+}
+.i_block3{
+    
+    width: 400px;
+    height: 240px;
+    
+}
+.i_block3>h3>button{
+    border: none;
+    background-color: transparent;
+    color: #767676;
+    font-size: 18px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.i_block4{
+    border: none;
+    width: 281px;
+    height: 60px;
+    border-radius: 25px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #25cf60;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.i_block4>a{
+    color: #fff;
+    
+}
+
+
