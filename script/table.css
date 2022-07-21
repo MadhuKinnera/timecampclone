@@ -1,69 +1,69 @@
-        #bottom {
-            background-color: #f3f3f3;
-            margin-top: 100px;
-            width:75%;
-            height: 400px;
-            margin: auto;
-            text-align: center;
-            line-height: 40px;
-            border-radius: 25px;
-            box-shadow: 0 25px 50px 0 rgb(101 105 167 / 4%);
-            margin-top: 200px;
-        }
-        #tool{
-            font-family: lato, sans-serif;
-            font-size: 20px;
-            padding-left: 200px;
-            padding-right: 200px;
-            padding-top: 26px;
-            font-weight: 800;
-            display: inline-block;
-            margin-top: 45px;
-        }
-        #tool1{
-            font-family: "nunito sans", sans-serif;
-            font-size: 21px;
-            font-weight: 700;
-            line-height: 25px;
-            display: inline-block;
-            margin-top: 60px;
-        }
-        #id{
-            display: block;
-        }
+    #bottom {
+        background-color: #f3f3f3;
+        margin-top: 100px;
+        width:75%;
+        height: 370px;
+        margin: auto;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 25px;
+        box-shadow: 0 25px 50px 0 rgb(101 105 167 / 4%);
+        margin-top: 200px;
+    }
+    #tool{
+        font-family: lato, sans-serif;
+        font-size: 20px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 20px;
+        font-weight: 800;
+        display: inline-block;
+        margin-top: 45px;
+    }
+    #tool1{
+        font-family: "nunito sans", sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 25px;
+        display: inline-block;
+        margin-top: 50px;
+    }
+    #id{
+        display: block;
+    }
+    
+    #button-cont{
+        display: flex;
+        gap: 20px;
+        padding-left: 450px;
+        padding-top: 23px;
+    }
+    #btn{
+        background-color:#f7b801 ;
+        border-radius: 25px;
+        height: 50px;
+        width: 250px;
+        border: 0px solid;
+        color: white;
+        font-size: 15px;
+    }
+    #btn:hover{
+        background-color:rgb(228, 154, 58);
+    }
+    #deco{
+        display: flex;
+        column-gap: 70%;
+        margin-left: 15%;
+        align-content: space-between;
         
-        #button-cont{
-            display: flex;
-            gap: 20px;
-            padding-left: 450px;
-            padding-top: 23px;
-        }
-        #btn{
-            background-color:#f7b801 ;
-            border-radius: 25px;
-            height: 50px;
-            width: 250px;
-            border: 0px solid;
-            color: white;
-            font-size: 15px;
-        }
-        #btn:hover{
-            background-color:rgb(228, 154, 58);
-        }
-        #deco{
-            display: flex;
-            column-gap: 70%;
-            margin-left: 15%;
-            align-content: space-between;
-            
-        }
-        #dec4{
-            display: flex;
-            align-content: flex-start;
-            padding-left: 10%;
-        }
-        #dec3{
-            display: flex;
-            align-content: flex-end;
-            padding-left: 15%;
-        }
+    }
+    #dec4{
+        display: flex;
+        align-content: flex-start;
+        padding-left: 10%;
+    }
+    #dec3{
+        display: flex;
+        align-content: flex-end;
+        padding-left: 15%;
+    }

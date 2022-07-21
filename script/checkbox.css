@@ -29,7 +29,6 @@ input[type="checkbox"]::before{
     transition: .5s;
     border: 1px solid;
     border: 0px;
-    
 } 
 input:checked[type="checkbox"]::before{
 left : 120px;
