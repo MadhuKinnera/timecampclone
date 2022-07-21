@@ -26,6 +26,12 @@ body {
     padding: 1.3rem 1rem;
     
 }
+.vl {
+    border-left: 1.5px solid #84e4a5;
+    height: 45px;
+    
+    
+  }
 .nav_bar_section{
     position: sticky;
     left: 0%;
@@ -55,7 +61,7 @@ body {
     
 }
 .navbar_nav{
-   
+ 
     width: 371px;
     height: 44px;
     display: flex;
