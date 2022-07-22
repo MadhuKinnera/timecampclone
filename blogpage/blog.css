@@ -93,7 +93,8 @@
     text-align: center;
     font-size: 15px;
     height: 50px;
-    border:transparent;
+    border:0px solid blue;
+    border-color: transparent;
     width:200px;
     border-radius: 30px;
 }
@@ -268,18 +269,17 @@
 }
 
 #load{
-    color:rgb(23, 23, 199);
-    font-size: 20px;
+    color:rgba(48, 48, 151, 0.588);
+    font-size: 17px;
     border:1px solid rgb(21, 21, 224);
     width:20%;
     height: 40px;
-    padding-top:7px;
+    padding-top:10px;
     text-align: center;
     border-radius:100px;
     margin-top:30px;
     font-weight: 700;
     margin:auto;
-    padding-top:10px;
 
 }
 #advantage{
