@@ -25,6 +25,7 @@
         box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
         padding-left: 22px;
         padding-right: 22px;
+        background-color: white;
     }
     #card1 > div > :first-child{
         display: block;
