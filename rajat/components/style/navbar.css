@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    overflow-x: hidden;
+    font-weight: 300;
+    position: relative;
+    font-family: "Nunito Sans",sans-serif;
+    background-color: #fff;
+    color: #1b1b20;
+    display: block;
+
+}
+.nav_bar_section{
+    font-size: 17px;
+    
+    width: 100%;
+    background-color: #fff;
+    box-shadow: -2px 4px 10px 0 rgb(0 0 0 / 10%);
+    padding: 1.3rem 1rem;
+    
+}
+.vl {
+    border-left: 1.5px solid #84e4a5;
+    height: 45px;
+    
+    
+  }
+.nav_bar_section{
+    position: sticky;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    z-index: 1030;
+}
+
+.cont_ner{
+    width: 1140px;
+    height: 56px;
+   
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#dashboard_set ul li{
+    list-style-type: none;
+}
+#dashboard_set {
+    
+    width: 964px;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar_nav{
+ 
+    width: 371px;
+    height: 44px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+
+
+#Zbutton{
+    
+    width: 140px;
+    height: 48px;
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color:  #f7b801;
+    
+    font-weight: bold;
+}
+
