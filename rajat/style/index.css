@@ -365,6 +365,11 @@ a, a:visited, a:hover, a:focus, a:active {
     height: 580px;
     width: 100%;
 }
+/* new */
+
+
+
+
 .zx2{
     width: 500px;
     height: 406px;   
@@ -423,10 +428,130 @@ a, a:visited, a:hover, a:focus, a:active {
     justify-content: center;
     align-items: center;
 }
-footer {
+/* footer {
     padding-top: 2rem;
     margin-left: auto;
     position: relative;
     z-index: 1000;
     opacity: 0.95;
+} */
+.black_back_brand{
+
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    background-color: #f3f3f3;
+
 }
+.black_back_brand>div{
+
+    width: 100%;
+}
+.black_back{
+    width: 50%;
+}
+.black_back_center{
+    display: flex;
+}
+.div_side_of_12_div{
+ 
+    width: 635px;
+    height: 780px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+#div_side_of_12_{
+   
+    width: 120px;
+    height: 120px;
+    margin: 0px 0px 40px 80px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#div_side_of_12_>img{
+    width: 40px;
+    height: 40px;
+    object-fit: scale-down;
+}
+.black_back_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black_back{
+    line-height: 40px;
+    width: 475px;
+    height: 780px;
+    margin-right: 30px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+
+}
+
+.black_back11{
+    color: #25cf60;
+    font-size: 14px;
+}
+.black_back101{
+    font-size: 25px;
+    margin: 0px 0px 10px;
+}
+strong{
+    font-size: 18px;
+
+}
+.black_back111{
+    font-size: 18px;
+    margin: 20px 0px 0px;
+}
+.black_back201{
+    font-size: 18px;
+    margin: 20px 0px 0px;
+}
+.dds_btn{
+   
+    width: 311px;
+    height: 80px;
+    margin: 20px 0px 0px;
+    padding: 25px 50px;
+    
+}
+.dds_btn>a{
+   
+    display: flex;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #25cf60;
+    color: #fff;
+}
+
+.hhga1>img{
+    width: 38px;
+    height: 40px;
+}
+.hhga2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.black_back311{
+    font-size: 16px;
+    margin: 60px 0px 0px;
+    padding: 0px 0px 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+

@@ -3,7 +3,13 @@
 ul li{
     list-style-type: none;
 } 
-
+footer {
+    padding-top: 2rem;
+    margin-left: auto;
+    position: relative;
+    z-index: 1000;
+    opacity: 0.95;
+}
 .containerfvb{
 
     width: 1140px;
@@ -76,6 +82,7 @@ ul li{
 .dropdown_cr{
     display: flex;
     justify-content: end;
+    margin-top: 40px;
 }
 .btn_slot{
    
