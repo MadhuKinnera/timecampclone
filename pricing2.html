@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricing</title>
+    <style>
+        .whole_table{
+            margin-bottom: 70px;
+        }
+    .whole_table > :first-child{
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 41px;
+        font-family: lato, sans-serif;
+    }
+    .whole_table > #pics {
+        display: inline-block;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #pics > img{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-left: 10px;
+    }
+
+
+    /* -------------last table-------- */
+    #last_table{
+        background-color: #f3f3f3;
+        margin-top: 150px;
+        width:75%;
+        height: 170px;
+        margin: auto;
+        text-align: center;
+        /* line-height: 40px; */
+        border-radius: 25px;
+        box-shadow: 0 25px 50px 0 rgb(101 105 167 / 4%);
+    }
+    #tool1{
+        display: flex;
+        /* justify-content: center; */
+        text-align: start;
+    }
+    #tool1 > :first-child {
+        padding-left: 130px;
+        padding-top: 30px;
+        font-family: lato, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    #tool1 > :nth-child(2) {
+        padding-left: 20px;
+        padding-top: 32px;
+        font-family: lato, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #btn{
+        background-color:#f7b801 ;
+        border-radius: 25px;
+        height: 50px;
+        width: 250px;
+        border: 0px solid;
+        color: white;
+        font-size: 15px;
+        margin-top: 32px ;
+        margin-left:120px ;
+    }
+    #btn:hover{
+        background-color:rgb(228, 154, 58);
+    }
+    #deco11{
+        display: flex;
+        column-gap: 70%;
+        margin-left: 15%;
+        align-content: space-between;
+    }
+    #deco11 > :first-child{
+        padding-left: 60px;
+    }
+    #deco22{
+        display: flex;
+        column-gap: 70%;
+        margin-left: 15%;
+        align-content: space-between;
+        padding-top: 30px;
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="whole_table">
+        <h1>Choose the right fit for you</h1>
+        <div id="pics">
+            <img src="./img/first.jpeg" alt="">
+            <img src="./img/second.jpeg" alt="">
+            <img src="./img/second.jpeg" alt="">
+            <img src="./img/fourth.jpeg" alt="">
+        </div>
+    </div>
+    <div id="last_table">
+        <div id="deco11">
+            <img id="dec1" src="https://cdn-m.timecamp.com/img/greenbranding/greenSmallSkewCircle.svg" alt="decorating image">
+            <img id="dec2 " src="https://cdn-m.timecamp.com/img/greenbranding/redSmallCircle.svg" alt="decorating image">
+        </div>
+        <div id="tool1">
+            <h2>Just when you had enough.</h2>
+            <h2>Try TimeCamp.</h2>
+            <div id="tool2"> 
+            <a href="https://app.timecamp.com/auth/register"></a>
+            <button id="btn">Start tracking time</button>
+            </div>
+        </div>
+        <div id="deco22">
+            <img id="dec3" src="https://cdn-m.timecamp.com/img/greenbranding/blueSmallCircle.svg" alt="decorating image">
+            <img id="dec4" src="https://cdn-m.timecamp.com/img/greenbranding/greenSmallCircle.svg" alt="decorating image">
+        </div>
+    </div>
+</body>
+</html>
+<script src="./pricing2.js"></script>
