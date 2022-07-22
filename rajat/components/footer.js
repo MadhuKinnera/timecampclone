@@ -80,19 +80,33 @@ let foot_er = ()=>{
                     <div class="under_container2002">
                         
                             <div>
-                                <img src="./img/facebook.svg" alt="Error">
+                            
+                                <a href="#"><img src="./img/facebook.svg"  href="#" alt="Error"></a>
                             </div>
                             <div>
-                                <img src="./img/linkedin.svg" alt="Error">
+                                <a href="#"><img src="./img/linkedin.svg" href="#" alt="Error"></a>
                             </div>
                             <div>
-                                <img src="./img/twitter.svg" alt="Error">
+                                <a href="#"><img src="./img/twitter.svg" href="#"  alt="Error"></a>
                             </div>
                    
                     </div>
                 
                     <div class="under_container1111"><p>We use cookies.<a href="#">Click here to learn more</a></p></div>
                 </div>
+        </div>
+        <div class="dropdown_cr">
+            <div class="btn_slot">
+                
+                    <select>
+                        <option>English</option>
+                        <option>Polarish</option>
+                        <option>Polarish</option>
+                        <option>Polarish</option>
+                    </select>
+
+            </div>
+
         </div>
     `
 }

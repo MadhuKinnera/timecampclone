@@ -53,7 +53,7 @@ ul li{
     justify-content: center;
     align-items: center;
     gap: 50px;
-    
+    margin-bottom: 20px;
   
 }
 
@@ -71,4 +71,18 @@ ul li{
 .s101>ul>li>a{
     color: #bebec0;
 }
+
+
+.dropdown_cr{
+    display: flex;
+    justify-content: end;
+}
+.btn_slot{
+   
+
+  
+    width: 10%;
+}
+
+
 
