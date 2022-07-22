@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(255,255,255);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    /* border: 1px red solid; */
+    display: flex;
+    color: rgb(83, 83, 83);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #fff;
+    /* background-color: rgb(221, 220, 220); */
+   
+}
+.nav-bar > div > p{
+    cursor: pointer;
+}
+.nav-bar > div > p:hover {
+    color:  rgb(75,176,99);
+    text-decoration: underline;
+}
+
+.logo{
+    /* border: solid 1px green; */
+    width: 3%;
+    height: 100px;
+    padding: 0 2%;
+}
+.logo img {
+    height: 34px;
+    margin: 16px 0;
+}
+.reports,.projects {
+    /* border: solid 1px green; */
+    width: 6%;
+    height: 100px;
+    padding: 0 1.5%;
+}
+.timesheet{
+    /* border: solid 1px green; */
+    width: 7%;
+    height: 100px;
+    padding: 0 1.5%;
+}
+.computer-time{
+    /* border: solid 1px green; */
+    width: 10%;
+    height: 100px;
+    padding: 0 1%;
+}
+
+
+
+
+
+
+.timesheet p,.projects p,.reports p,.computer-time p{
+    margin: 20px 0px;
+}
+.settings {
+    /* border: solid 1px green; */
+    width: 6%;
+    height: 100px;
+    padding: 0 1%;
+    margin-left: 330px;
+}
+.support{
+    /* border: solid 1px green; */
+    width: 3%;
+    height: 100px;
+    padding: 0 1%;
+    /* margin-left: 330px; */
+}
+.profile{
+    /* border: solid 1px green; */
+    width: 12%;
+    height: 100px;
+    padding: 0 1%;
+    
+}
+.profile i{
+    position: relative;
+    top: 17px;
+    font-size: 47px;
+}
+.profile p{
+    position: relative;
+    top: -30px;
+}
+
+
+  /* .......All The Dropdown properties ...........*/
+
+
+
+  .computer-dropdown-content,.support-dropdown-content ,.profile-dropdown-content,.more-dropdown-content,.project-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+    border-radius: 12px;
+    padding: 10px 5px;
+  }
+  .support-dropdown-content{
+      position: relative;
+      left: -170px;
+      min-width: 200px;
+  }
+  
+  .computer-dropdown-content a,.support-dropdown-content a,.profile-dropdown-content a,.more-dropdown-content a,.project-dropdown-content a{
+    color: grey;
+    padding: 6px 16px;
+    text-decoration: none;
+    border-radius: 12px;
+    display: block;
+   
+  }
+  .support-dropdown-content u{
+    padding: 6px 16px;
+    margin-left: 20px;
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .computer-dropdown-content a:hover,.support-dropdown-content a:hover,.profile-dropdown-content a:hover ,.more-dropdown-content a:hover,.project-dropdown-content a:hover{
+      background-color: rgb(75,176,99);
+      color: white;
+    }
+    .more-dropdown-content,.project-dropdown-content{
+        z-index: 2;
+    }
+    .project-dropdown-content{
+       margin-top: 20px;
+    }
+  .computer-time:hover .computer-dropdown-content {display: block; }
+
+  .support:hover .support-dropdown-content {display: block;}
+  .profile:hover .profile-dropdown-content {display: block;}
+  
+
+  
