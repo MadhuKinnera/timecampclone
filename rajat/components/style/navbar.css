@@ -86,3 +86,22 @@ body {
     
     font-weight: bold;
 }
+#abs_cash{
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: none;
+}
+@media (max-width:1000px){
+    #abs_cash{
+        display: initial;
+    }
+    .cont_ner{
+        width: auto;
+    }
+}
+

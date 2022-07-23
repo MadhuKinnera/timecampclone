@@ -18,10 +18,10 @@ let foot_er = ()=>{
                 <div class="deeper1"><p>Support</p></div>
                 <div class="s101">
                     <ul>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Knowledge base</a></li>
-                        <li><a href="#">Developers API</a></li>
-                        <li><a href="#">Server Status</a></li>
+                        <li><a href="https://www.timecamp.com/support/">Support</a></li>
+                        <li><a href="https://www.timecamp.com/kb/">Knowledge base</a></li>
+                        <li><a href="https://developer.timecamp.com/">Developers API</a></li>
+                        <li><a href="https://www.serviceuptime.com/users/uptimemonitoring.php?S=6c911575e9623c519908b297ea5757fd&Id=48560">Server Status</a></li>
                     </ul>
                 </div>
             </div>
@@ -29,12 +29,12 @@ let foot_er = ()=>{
                 <div class="deeper1"><p>Integrations</p></div>
                 <div class="s101">
                     <ul>
-                        <li><a href="#">Trello</a></li>
-                        <li><a href="#">Monday.com</a></li>
-                        <li><a href="#">Google Calendar</a></li>
-                        <li><a href="#">Asana</a></li>
-                        <li><a href="#">Jira</a></li>
-                        <li><a href="#">All integrations</a></li>
+                        <li><a href="https://www.timecamp.com/integrations/trello-time-tracking/">Trello</a></li>
+                        <li><a href="https://www.timecamp.com/integrations/monday-com-time-tracking/">Monday.com</a></li>
+                        <li><a href="https://www.timecamp.com/integrations/google-calendar-time-tracking/">Google Calendar</a></li>
+                        <li><a href="https://www.timecamp.com/integrations/asana-time-tracking/">Asana</a></li>
+                        <li><a href="https://www.timecamp.com/integrations/jira-time-tracking/">Jira</a></li>
+                        <li><a href="https://www.timecamp.com/integrations/">All integrations</a></li>
                     </ul>
                 </div>
             </div>
@@ -42,11 +42,11 @@ let foot_er = ()=>{
                 <div class="deeper1"><p>Resources</p></div>
                 <div class="s101">
                     <ul>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">HeySpace</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">Become a Partner</a></li>
+                        <li><a href="https://www.timecamp.com/contact/">Contact</a></li>
+                        <li><a href="https://hey.space/">HeySpace</a></li>
+                        <li><a href="https://www.timecamp.com/about/">About us</a></li>
+                        <li><a href="https://www.timecamp.com/press/">Press</a></li>
+                        <li><a href="https://www.timecamp.com/partners/">Become a Partner</a></li>
                     </ul>
                 </div>
             </div>
@@ -54,11 +54,11 @@ let foot_er = ()=>{
                 <div class="deeper1"><p>Calculators</p></div>
                 <div class="s101">
                     <ul>
-                        <li><a href="#">Profit Margin</a></li>
-                        <li><a href="#">Online Timer</a></li>
-                        <li><a href="#">Overtime</a></li>
-                        <li><a href="#">ROI Calculator</a></li>
-                        <li><a href="#">Time Card</a></li>
+                        <li><a href="https://www.timecamp.com/resources/pmc/profit-margin-calculator/">Profit Margin</a></li>
+                        <li><a href="https://www.timecamp.com/resources/ot/online-timer/">Online Timer</a></li>
+                        <li><a href="https://www.timecamp.com/roi-calculator/">Overtime</a></li>
+                        <li><a href="https://www.timecamp.com/time-card-calculator/">ROI Calculator</a></li>
+                        <li><a href="https://www.timecamp.com/time-card-calculator/">Time Card</a></li>
                     </ul>
                 </div>
             </div>
@@ -66,9 +66,9 @@ let foot_er = ()=>{
                 <div class="deeper1"><p>Legal</p></div>
                 <div class="s101">
                     <ul>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Security</a></li>
+                        <li><a href="https://www.timecamp.com/terms-conditions/">Terms</a></li>
+                        <li><a href="https://www.timecamp.com/privacy-policy/">Privacy</a></li>
+                        <li><a href="https://www.timecamp.com/security/">Security</a></li>
                     </ul>
                 </div>
             </div>
@@ -81,13 +81,13 @@ let foot_er = ()=>{
                         
                             <div>
                             
-                                <a href="#"><img src="./img/facebook.svg"  href="#" alt="Error"></a>
+                                <a href="https://www.facebook.com/timecamp/"><img src="./img/facebook.svg"  href="#" alt="Error"></a>
                             </div>
                             <div>
-                                <a href="#"><img src="./img/linkedin.svg" href="#" alt="Error"></a>
+                                <a href="https://www.linkedin.com/company/timecamp/"><img src="./img/linkedin.svg" href="#" alt="Error"></a>
                             </div>
                             <div>
-                                <a href="#"><img src="./img/twitter.svg" href="#"  alt="Error"></a>
+                                <a href="https://twitter.com/timecamp/"><img src="./img/twitter.svg" href="#"  alt="Error"></a>
                             </div>
                    
                     </div>
@@ -101,8 +101,8 @@ let foot_er = ()=>{
                     <select>
                         <option>English</option>
                         <option>Polarish</option>
-                        <option>Polarish</option>
-                        <option>Polarish</option>
+                        <option>Italic</option>
+                        <option>French</option>
                     </select>
 
             </div>
