@@ -1,0 +1,167 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid grey; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.navbar>img{
+    width: 12%;
+   padding-top: 30px;
+   padding-left: 50px;
+}
+.first>button{
+    padding: 10px 50px;
+    border-radius: 46px;
+    background-color: #25cf60;
+    color: #fff;
+    border: 1px solid white;
+}
+.first{
+    /* border: 1px solid red; */
+    width: 65%;
+    margin: 3% auto;
+    font-size: large;
+    padding: 3%;
+    margin-left: 80px;
+    padding-bottom: 30px;
+    /* height: 200px; */
+    
+
+}
+.first>h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+.login__left{
+    width: 50%;
+   /* border: 1px solid green; */
+   margin-top: 1%;
+   background-color: transparent;
+
+}
+
+.second{
+
+    width: 80%;
+    height: 60px;
+    display: flex;
+    margin: 3% auto;
+    margin-left:9px;
+    /* border: 1px solid teal; */
+    margin-top: 5%;
+    justify-content: space-around;
+    size: 40px;
+    padding: 5%;
+
+}
+
+
+
+.login{
+   display: flex;
+}
+
+.login__right{
+    position: relative;
+    /* border: 1px solid red; */
+    
+    border-radius: 5%;
+    text-align: center;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login__right>button{
+    width: 80%;
+    background-color: #fff;
+    border: 1px solid white;
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 4%;
+    
+
+}
+.login__right>button>img{
+    font-size: 40px;
+}
+
+.login__right>form{
+    padding-top: 20px;
+    /* border: 1px solid green; */
+    width: 80%;
+    margin: 3% auto;
+    
+}
+#email{
+    margin: 5%;
+    width: 87%;
+    font-size: 15px;
+    
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid rgb(171, 162, 162);
+    display: flex;
+    justify-content: space-evenly;
+}
+#password{
+    margin: 5%;
+    width: 87%;
+    font-size: 15px;
+    
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid rgb(171, 162, 162);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login__right>form p{
+    color: #25cf60;
+    text-decoration-line:underline;
+
+}
+#submit{
+    padding: 15px 40px;
+    margin-top: 2rem;
+    background-color: #25cf60;
+    border-radius: 26px;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.lower> a{
+
+    color: #25cf60;
+    text-decoration-line:underline;
+
+}
+#g_btn{
+    width: 70%;
+    margin: auto;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid rgb(171, 162, 162);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#g_btn:hover{
+    background-color: rgba(100, 100, 111, 0.2);
+}
+
+
+
