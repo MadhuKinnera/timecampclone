@@ -219,10 +219,9 @@
         align-items: center;
     }
     
-    .Chose_the_btn>div>#btnY{
-      
+    .Chose_the_btn>div>#btnY {
         border-radius: 26px;
-        padding: 3px -1px;
+        padding: 5px 3px;
         color: #fff;
         font-weight: 700;
         border: none;

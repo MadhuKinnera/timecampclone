@@ -16,6 +16,7 @@ let nav__bar = ()=>{
                         <li class="navbar_ul_li"><a href='#' style="color:#1b1b20">Sign in</a></li>
                         <li class="navbar_ul_li" id="Zbutton" ><a href='#' style="color:#fff">Go to App</a></li>           
                     </ul>
+                    
                 </div>
 
             </div>
