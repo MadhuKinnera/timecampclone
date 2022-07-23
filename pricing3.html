@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link rel="stylesheet" href="./script/checkbox.css">
+    <link rel="stylesheet" href="./script/container.css">
+    <link rel="stylesheet" href="./script/table.css">
+    <link rel="stylesheet" href="./script/customer.css">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: "nunito sans",sans-serif;
+        }
+        #head{
+            width: 100%;
+            height: 400px;
+            /* border:1px solid red; */
+            display: inline-block;
+            text-align: center;
+            padding-top: 130px;
+            background-color: #f3f3f3;
+        }
+        #head> :first-child{
+            font-family: lato, sans-serif;
+            font-size: 36px;
+            padding-left: 230px;
+            padding-right: 230px;
+        }
+        #head> :nth-child(2){
+            line-height: 30px;
+            padding-top: 70px;
+            padding-bottom: 10px;
+            font-size: 23px;
+        }
+        #head> :nth-child(3){
+            font-family : "nunito sans", sans-serif;
+            font-size: 20px;
+        }
+        #head1{
+            width: 100%;
+            height: 400px;
+            /* border:1px solid red; */
+            display: inline-block;
+            text-align: center;
+            padding-top: 90px;
+        }
+        #head1> :first-child{
+            color: #3ac96b;
+            font-family: "nunito sans", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            padding-left: 230px;
+            padding-right: 230px;
+        }
+        #head1> :nth-child(2){
+            font-family: lato, sans-serif;
+            font-weight: 500;
+            line-height: 35px;
+            padding-top: 20px;
+            font-size: 32px;
+        }
+        #head1> :nth-child(3){
+            font-family: "nunito sans", sans-serif;
+            font-weight: 500;
+            line-height: 35.2px;
+            padding-top: 20px;
+            font-size: 18px;
+            color: #758186;
+        }
+        #head1> :nth-child(4){
+            display: block;
+            margin-left: 600px;
+            margin-top: 25px;
+        }
+        #lock{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-top: 80px;
+        }
+        #lock > img {
+            padding-right: 20px;
+        }
+        #lock > h3{
+            padding-top: 5px;
+        }
+        #line {
+            display: flex;
+            padding-top: 150px;
+        }
+        #line > h3{
+            display: inline-block;
+            text-align: center;
+            
+            padding-left: 150px;
+        }
+        .logo{
+            width: 80%;
+            height: 140px;
+            display: flex;
+            margin: auto;
+        }
+        .logo > div{
+            width: 20%;
+            height: 130px;
+            padding-left: 50px;
+            padding-top: 50px;
+        }
+        .bottom_line{
+            width: 80%;
+            /* display: block; */
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+    <h1>TimeCamp fits perfectly for companies big and small. Regardless of your budget.</h1>
+    <p>Choose the most accurate pricing for you and start gaining crucial insights for your business.</p>
+    <h1>You can also start with a free 14-day trial.</h1>
+</div>
+<div id="head1">
+    <p>PRICING</p>
+    <h2>Your time cost more</h2>
+    <p>Use free forever plan or subscribe to a paid plan to get more features!</p>
+    <input type="checkbox" id="check">
+    <div id="check1">
+        <h4>Annually</h4>
+        <p>Monthly</p>
+    </div>
+</div>
+
+
+<!-- --------------chart----------- -->
+
+
+    <div id="container">
+        <div id="blank1"></div>
+        <div id="card">
+            <h1>Free</h1>
+            <p>Free forever plan</p>
+            <hr style="color: #3ac96b;">  
+            <p>Measure on which activities you spend time while working</p>
+            <button>Join for free</button>
+            <ul id="option">
+                <li>
+                    Unlimited users
+                </li>
+                <li>
+                    Unlimited Projects & tasks
+                </li>
+                <li>
+                    Desktop & Mobile app
+                </li>
+            </ul>
+        </div>
+        <div id="card">
+            <!-- <p>BASIC</p> -->
+            <h1 style="color:black ;">$ 6.3</h1>
+            <p>user/mo</p>
+            <hr style="color: #3ac96b;">  
+            <p>Be more transparent and gain customers' trust</p>
+            <button>Start your free trial</button>
+            <ul id="option">
+                <li>
+                    Time rounding
+                </li>
+                <li>
+                    Custom report
+                </li>
+                <li>
+                    Hide time from users
+                </li>
+                <li>
+                    Management roles
+                </li>
+                <li>
+                    Team productivity tracking
+                </li>
+                <li>
+                    XLS reports export
+                </li>
+                <li>
+                    Unlimited integrations
+                </li>
+                <li>
+                    Billable time & budgeting
+                </li>
+            </ul>
+        </div>
+        <div id="card" style="background-color: #3ac96b; color: white;">
+            <!-- <p>PRO(Popular)</p> -->
+            <h1 style="color: white;">$ 9</h1>
+            <p>user/mo</p>
+            <hr style="color: white;">  
+            <p style="color: white;">Get full control over your business</p>
+            <button style="background-color: white;color: #3ac96b; ">Start your free trial</button>
+            <h3>Everything in Basic plus</h3>
+            <ul id="option">
+                <li>
+                    Custom user roles
+                </li>
+                <li>
+                    Billing rates
+                </li>
+                <li>
+                    Invoicing
+                </li>
+                <li>
+                    Timesheet approvals
+                </li>
+                <li>
+                    Screenshots
+                </li>
+                <li>
+                    SSO login
+                </li>
+                <li>
+                    2-factor authentication
+                </li>
+            </ul>
+        </div>
+        <div id="card">
+            <h1 style="color:black; font-size: 26px;">Let's discuss</h1>
+            <p>Free forever plan</p>
+            <hr style="color: #3ac96b;">  
+            <p>Measure on which activities you spend time while working</p>
+            <button>Join for free</button>
+            <h3>Everything in Pro plus</h3>
+            <ul id="option">
+                <li>
+                    Personalized training
+                </li>
+                <li>
+                    Private cloud implementation
+                </li>
+                <li>
+                    Self hosted server
+                </li>
+            </ul>
+        </div>
+        <div id="blank2"></div>
+    </div>
+
+
+    <!-- ----------lock------------ -->
+
+
+    <div id="lock">
+        <img src="https://cdn-m.timecamp.com/img/landing-page/icon-padlock.png" alt="">
+        <h3 style="color: grey;">SSL Secure Payment</h3>
+    </div>
+
+    <!-- -----------bellow chart------------ -->
+    <div id="line">
+        <h3>------------------------------------------------------Trusted by 18,000 teams from all over the world (and still growing!)
+            -----------------------------------------------------</h3>
+    </div>
+    <div class="logo">
+        <div>
+            <img src="https://cdn-m.timecamp.com/img/greenbranding/social-proof-section/stars.svg" alt="">
+            <img src="https://cdn-m.timecamp.com/img/greenbranding/social-proof-section/capterra.svg" alt="">
+        </div>
+        <div>
+            <img src="https://cdn-m.timecamp.com/img/logos/dsv.png" alt="">
+        </div>
+        <div>
+            <img src="https://cdn-m.timecamp.com/img/logos/usp.png" alt="">
+        </div>
+        <div>
+            <img src="https://cdn-m.timecamp.com/img/logos/saatchi.png" alt="">
+        </div>
+        <div>
+            <img src="https://cdn-m.timecamp.com/img/logos/blitzmetrics.png" alt="">
+        </div>
+        <div>
+            <img src="https://cdn-m.timecamp.com/img/greenbranding/social-proof-section/stars.svg" alt="">
+            <img src="https://cdn-m.timecamp.com/img/greenbranding/social-proof-section/g2crowd.svg" alt="">
+        </div>
+    </div>
+    <hr class="bottom_line">
+    
+
+    <!-- --------table-------- -->
+
+
+<div id="bottom">
+    <div id="cont">
+    <div id="row">
+            <div id="deco">
+        <img id="dec1" src="https://cdn-m.timecamp.com/img/greenbranding/greenSmallSkewCircle.svg" alt="decorating image" >
+        <img id="dec2 " src="https://cdn-m.timecamp.com/img/greenbranding/redSmallCircle.svg" alt="decorating image" >
+    </div>
+    <div id="tool">
+        <h1>If you want a product tour, here you can book a call demo with our experts.</h1>
+    </div>
+    <div id="tool1">
+        <p>Hop on a call with TimeCamp's top minds to get the best possible introduction to our product.</p>
+    </div>
+    <div id="button-cont">
+        <a href="https://www.timecamp.com/free-demo/?ref=header">
+        <button id="btn">Book a demo</button>
+        </a>
+        <img  id="dec3" src="https://cdn-m.timecamp.com/img/greenbranding/blueSmallCircle.svg" alt="decorating image" >
+    </div>
+    </div>
+        <img id="dec4" src="https://cdn-m.timecamp.com/img/greenbranding/greenSmallCircle.svg" alt="decorating image" >
+    </div>
+</div>
+
+<!-- ----------customer post------- -->
+
+
+<div id="customer">
+    <h1>What customers say</h1>
+    <div id="card1">
+    <div>
+        <h3>Improving your records every day</h3>
+        <h4>"Being able to measure the time each task takes or 
+            each activity that takes place during the day, 
+            brings control to your time and improves your own records 
+            to grow professionally every day more."</h4>
+        <h4>Felipe</h4>
+        <p>Software Developer</p>
+    </div>
+    <div>
+        <h3>A huge asset for our remote business</h3>
+        <h4>"TimeCamp was a recent implementation for us after using 
+            a different time tracking system. It is a clean easy to 
+            use software with barely any learning curve. It has everything 
+            we need, min by min tracking, notes, projects, tasks, multiple 
+            reports, etc. It has been a huge asset to our remote business"</h4>
+        <h4>Michelle</h4>
+        <p>Recruiting Director</p>
+    </div>
+    <div>
+        <h3>We can distribute workload in a fair basis</h3>
+        <h4>"With TimeCamp we are capable to understand exactly 
+            which part of the project require more time so we can find 
+            a solution and also the saturation of the team so we can 
+            distribute workload in a fair basis."</h4>
+        <h4>Capterra user</h4>
+        <p>Freelancer</p>
+    </div>
+</div>
+</div>
+</body>
