@@ -40,25 +40,6 @@ class User{
     #Userpassword(pass){
         return true;
     }
-
-    Login(email,pass){
-        let res= false ;
-        let count = 0;
-        signArr.forEach(el=>{
-            if(el.email == email && el.password == pass){
-                res = true;
-                 count++;
-            }
-        })
-        if(res==true && count>0){
-            alert("Login Sucessful!");
-            window.location.href = ""
-        }else{
-            alert("invalid Credentials")
-        }
-    }
-
-
 }
 
 
@@ -80,12 +61,6 @@ let SignUp = ()=>{
 
 }
 
-let Login = ()=>{
-    event.preventDefault();
-    let email = doc.getElementById("name").value;
-    let pass = doc.getElementById("email").value;
-    let data = new User(email,pass)
-}
 
 
 document.querySelector("form").addEventListener("submit",SignUp)

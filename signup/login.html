@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
    
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="./style/login.css">
 </head>
 <body>
     <div class="navbar">
@@ -48,16 +48,20 @@
             <h2>
                 Log in to TimeCamp
             </h2>
-            <button><img src="https://cdn.timecamp.com/res/css/images/btn_google_sign_in.png" alt="" style="width: 7%; padding-right: 20px; "><a href="https://app.timecamp.com/auth/google_auth/login">Log in with Google</a></button>
+            <div id="g_btn">
+                <img src="https://cdn.timecamp.com/res/css/images/btn_google_sign_in.png" alt="" style="width: 5%;"><a href="https://app.timecamp.com/auth/google_auth/login" style="font-size:15px; font-weight: bold; color:#767676 ; text-decoration: none; margin-top: 10px; margin-left: -50px;">Log in with Google</a>
 
-            <p>Or</p>
+            </div>
+            
+
+            <p style="padding-top: 20px;">Or</p>
 
             <form action="" >
                 <input type="
                 email" placeholder="Email" id="email"><br>
 
                 <input type="password" placeholder="Password" id="password">
-                <a href=""><p>Forgotten Password?</p> </a>
+                <a href="https://app.timecamp.com/auth/forgotten_password"><p>Forgotten Password?</p> </a>
 
                 <input type="submit" value="Log In" id="submit">
 
@@ -81,4 +85,5 @@
     </div>
     
 </body>
-</html
+</html>
+<script src="./script/login.js"></script>
