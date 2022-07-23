@@ -20,7 +20,7 @@ class User{
         })
         if(res==true && count>0){
             alert("Login Sucessful!");
-            window.location.href = "../homepage/home.html";
+            window.location.href = "../homepage/index.html";
         }else{
             alert("invalid Credentials")
         }
