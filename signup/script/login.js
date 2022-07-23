@@ -20,7 +20,7 @@ class User{
         })
         if(res==true && count>0){
             alert("Login Sucessful!");
-            window.location.href = ""
+            window.location.href = "../homepage/home.html";
         }else{
             alert("invalid Credentials")
         }
@@ -30,7 +30,7 @@ class User{
 
 
 
-let Login = ()=>{
+let Login = (event)=>{
     event.preventDefault();
     let email = document.getElementById("email").value;
     let pass = document.getElementById("password").value;
