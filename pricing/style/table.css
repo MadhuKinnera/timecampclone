@@ -26,7 +26,7 @@
         font-weight: 700;
         line-height: 25px;
         display: inline-block;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     #id{
         display: block;
@@ -34,9 +34,9 @@
     
     #button-cont{
         display: flex;
-        gap: 20px;
-        padding-left: 450px;
-        padding-top: 23px;
+        gap: 15px;
+        padding-left: 350px;
+        /* padding-top: 3px; */
     }
     #btn{
         background-color:#f7b801 ;
