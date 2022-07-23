@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+    <link rel="stylesheet" href="./styles/details.css">
+</head>
+<body>
+    <div id="main">
+        <div id="form">
+            <div>
+                <h3>Invoice Information</h3>
+            <p>Company name/ Your name</p>
+            <input type="text">
+            <p>send invoices to (optional)</p>
+            <input type="text">
+            <h3>Billing address</h3>
+            <p> Address</p>
+            <input type="text">
+            <p>City</p>
+            <input type="text">
+            <p>ZIP/Postal</p>
+            <input type="number">
+            </div>
+        </div>
+
+
+        <div id="payment">
+
+                <h3>Add Payment Details</h3>
+                <input type="text" placeholder="Enter name">
+                <input type="number" placeholder="Enter Card Number">
+                <input type="text" placeholder="Enter Expiry Date(MM/YY)">
+                <input type="number" placeholder="Enter CVV">
+        </div>
+
+
+        <div id="bill">
+        <h3>Billing Information</h3>
+        <p>Your Total Amout is <span id="amount"></span></p>
+            <button id="submit">
+                Continue
+            </button>
+        
+        </div>
+    
+    </div>
+</body>
+</html>
+<script src="./scripts/details.js"></script>

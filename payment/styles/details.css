@@ -1,0 +1,37 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgba(215, 213, 212, 0.21)
+}
+#form >div > input{
+    
+    width:200px;
+    height:35px;
+    border-radius: 10px;
+}
+#payment > input{
+    display: block;
+    margin-top:20px; 
+    width:200px;
+    height:35px;
+    border-radius: 10px;
+}
+#main{
+    display:flex;
+    justify-content: space-around;
+}
+#bill  input{
+    text-align: center;
+width:30px;
+}
+#bill button{
+    cursor: pointer;
+    padding:10px 20px;
+    border-color:transparent;
+    border-radius: 10px;
+    background-color:green;
+    color:white;
+    font-size: 15px;
+    display: block;
+    margin:auto;
+   
+}

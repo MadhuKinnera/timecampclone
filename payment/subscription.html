@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <link rel="stylesheet" href="./styles/subscription.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <h1>Select Plan</h1>
+    <div id="selectplan">
+        <div id="free">
+            <h3>FREE</h3>
+            <h1>$0</h1>
+            <p>free for unlimited
+                number of users
+            </p>
+        </div>
+        <div id="basic">
+            <h3>BASIC</h3>
+            <h1>$6.3</h1>
+            <p>
+                per license/billed annually,$7 
+                billed monthly
+            </p>
+        </div>
+        <div id="pro">
+            <h3>PRO</h3>
+            <h1>$9</h1>
+            <p>
+                per license/billed annually,$10 
+                billed monthly
+            </p>
+        </div>
+        <div id="enterprise">
+            <h3>ENTERPRISE</h3>
+            <h1>CUSTOM</h1>
+            <p>
+            contact sales team for the best 
+            offer
+            </p>
+        </div>
+        <div  id="benifits">
+            
+        </div>
+        <div id="purchase">
+            <h4>Purchase Options</h4>
+            <div>
+                <p>Number of licenses : <span><input type="number" value="1" id="input"></span> </p>
+            </div>
+     
+            <div>
+                <p>Price per license : <span id="price">$0/month</span></p>
+            </div>
+            <div>
+                <p>Plan : <span id="plan"> Free</span></p>
+            </div>
+            <div>
+                <p>Billing Cycle : <span>Annual</span></p>
+            </div>
+            <div>
+                <p>Charge : $<span id="charge">0 </span> per month</p>
+            </div>
+            <button id="checkout">
+                Continue
+            </button>
+            
+
+        </div>
+    </div>
+</body>
+</html>
+<script  src="./scripts/subscription.js" type="module"></script>

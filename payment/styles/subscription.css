@@ -1,0 +1,96 @@
+h1{
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+#selectplan{
+    width:70%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(3,260px) ;
+    grid-template-areas: 
+    "one two three four"
+    "five five six six"
+    "five five six six";
+    gap:5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#selectplan > div {
+    cursor: pointer;
+    padding:20px;
+    text-align:center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#selectplan > div > h3{
+    color:green;
+
+}
+#selectplan> div > h1 {
+    opacity: 0.7;
+}
+#selectplan > div> p{
+    opacity: 0.67;
+}
+
+#selectplan> div:nth-child(1){
+    grid-area:one;
+    
+}
+#selectplan> div:nth-child(2){
+    grid-area:two;
+ 
+
+    
+}
+#selectplan> div:nth-child(3){
+    grid-area: three;
+    
+
+}
+#selectplan> div:nth-child(4){
+    grid-area: four;
+    
+
+}
+#selectplan> div:nth-child(5){
+    grid-area: five;
+   
+
+}
+#selectplan> div:nth-child(6){
+    grid-area: six;
+   
+
+}
+#benifits> div{
+    width:50%;
+    margin:auto;
+    display:flex;
+}
+
+#benifits > div > span{
+    padding-top:15px;
+    margin-right:10px;
+}
+#purchase > div {
+    display:flex;
+}
+#purchase> div > p > span {
+    position :relative;
+    right:0px;
+}
+#purchase  input {
+text-align: center;
+}
+#purchase > button{
+    padding:10px 50px;
+    cursor: pointer;
+    background-color:rgba(27, 152, 27, 0.736);
+    border-radius:10px;
+    color:white;
+    border-color: transparent;
+
+}

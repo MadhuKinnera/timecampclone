@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify OTP</title>
+    <style>
+        #otpdiv{
+            padding-top:20px;
+            width:30%;
+            margin:auto;
+            height:200px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        h1{
+            text-align: center;
+        }
+        #otpdiv > input{
+            display: block;
+            width:100px;
+            height:25px;
+            text-align:center;
+            margin:auto;
+        }
+        #otpbutton{
+            display:block;
+            padding:10px 20px;
+            margin:auto;
+            margin-top:20px;
+            border-color:transparent;
+            background-color:rgb(80, 173, 80);
+            color:white;
+            cursor: pointer;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="otpdiv">
+        <h1>Enter OTP</h1>
+        <input type="number" placeholder="OTP..." id="otp">
+        <button id="otpbutton">SUBMIT</button>
+    </div>
+</body>
+</html>
+<script>
+    let otp=document.getElementById("otp");
+    let button=document.getElementById("otpbutton");
+    button.addEventListener("click",()=>{
+        if(otp.value==1234){
+            alert("Subscription Successful..😎");
+        }
+        else{
+            alert("Wrong OTP..😒")
+        }
+    })
+</script>

@@ -81,7 +81,7 @@ let foot_er = ()=>{
                          
                              <div>
                              
-                                 <a href="#"><img src="../img/facebook.svg"  href="#" alt="Error"></a>
+                                 <a href=""><img src="../img/facebook.svg"  href="#" alt="Error"></a>
                              </div>
                              <div>
                                  <a href="#"><img src="../img/linkedin.svg" href="#" alt="Error"></a>
