@@ -1,4 +1,4 @@
-# Mytheresa-clone-website
+# TimeCamp-clone-website
 
 This was a collaborative project made by 4 members Executed in 5 days.
 1) TeamLead : Madhu Kinnera
