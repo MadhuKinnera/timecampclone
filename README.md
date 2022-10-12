@@ -4,7 +4,7 @@ This was a collaborative project made by 4 members Executed in 5 days.
 1) TeamLead : Madhu Kinnera
 2) Saurab Pawa
 3) Pooja Rathod
-4) Runforest
+4) Rajat Yadav
 5) Aman
 
   Deploy Link - https://timecampp.netlify.app/
